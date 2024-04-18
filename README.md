@@ -1,4 +1,4 @@
-# VertexAI_SiS
+# Vertex_AI_SiS
 Sample app using Snowflake External Access, Streamlit in Snowflake, and Vertex AI 
 
 For more information please see this related blog post: https://cloudydata.substack.com/p/snowflake-and-vertex-ai-foundational
