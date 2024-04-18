@@ -5,7 +5,7 @@ For more information please see this related blog post: https://cloudydata.subst
 
 This repo contains a sample a Streamlit in Snowflake app that uses External Access to call Vertex AI Palm2 for TextGeneration: https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text
 
-**1. Customer_Reviews.csv:** A csv file containing fictitious customer reviews for a retailer (you can upload this to a table named DEMOS.VERTEX.REVIEWS using Snowsight).
+**1. Customer_Reviews.csv:** A csv file containing fictitious customer reviews for a retailer (upload this to a table named DEMOS.VERTEX.REVIEWS using Snowsight).
 
 **2. Vertex_Demo.sql:** A sample script that demonstrates how to create a Stored Procedure/UDF that calls the TextGeneration Vertex API endpoint using the PaLM2 for Text (text-bison) foundational model which is ideal for tasks that can be completed with one API response: https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text. The script includes the code for creating a Snowflake Security Integration, Secret, Network Rule, and External Access Integration used by the Stored Procedure.
 
