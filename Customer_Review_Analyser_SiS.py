@@ -58,7 +58,7 @@ def write_customer_review(selection, index):
     st.write('**Rating**: ' + str(selection["RATING"][index]))
 
 def write_vertex_response(json_resp):
-    col1, col2 = st.columns([4,20])
+    col1, col2 = st.columns([2,20])
     with col1:
         st.image('https://lh3.googleusercontent.com/e5M3Bi_o8iVajobAcS0LLDDJ2RN4LzchraKjfEKWvXaTkBw2WU50kuTnF6xHzMOifL6DMe16SCUqNt5w2gB9ZA=w80-h80', width=60)
     with col2:
